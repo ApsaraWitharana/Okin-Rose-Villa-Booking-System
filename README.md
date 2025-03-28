@@ -25,6 +25,19 @@ A modern villa reservation platform built with React, TypeScript, and Redux for 
 ```bash
 https://github.com/ApsaraWitharana/Okin-Rose-Villa-Booking-System.git
 ```
+## Screen short
+### Home
+![WhatsApp Image 2025-03-28 at 14 48 48_9f88e253](https://github.com/user-attachments/assets/86998ad8-341b-41ef-90d0-c212509d0336)
+
+### Rooms
+![WhatsApp Image 2025-03-28 at 14 49 04_2f0b0973](https://github.com/user-attachments/assets/9e3d134e-ea66-400b-930b-4c191112823e)
+
+### Gallary
+![WhatsApp Image 2025-03-28 at 14 49 20_be0403ac](https://github.com/user-attachments/assets/3f93ecdf-ddf7-4fd6-852e-49f01619ce2b)
+
+### Blogs
+![WhatsApp Image 2025-03-28 at 14 49 35_43b6f44f](https://github.com/user-attachments/assets/5f78ae01-e956-414a-862f-df13db3e73de)
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
