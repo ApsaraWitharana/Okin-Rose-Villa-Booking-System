@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Check } from 'lucide-react';
 import { pricingPlans } from '../data/content';
 
@@ -16,10 +16,10 @@ export function Pricing() {
             <div
               key={plan.id}
               className={`relative bg-white rounded-lg shadow-lg overflow-hidden
-                ${plan.isPopular ? 'ring-2 ring-blue-600' : ''}`}
+                ${plan.isPopular ? 'ring-2 ring-red-600' : ''}`}
             >
               {plan.isPopular && (
-                <div className="absolute top-0 right-0 bg-blue-600 text-white px-4 py-1 text-sm font-medium">
+                <div className="absolute top-0 right-0 bg-red-600 text-white px-4 py-1 text-sm font-medium">
                   Most Popular
                 </div>
               )}
@@ -40,7 +40,7 @@ export function Pricing() {
                 <button
                   className={`mt-8 w-full py-3 px-6 rounded-md font-medium transition-colors
                     ${plan.isPopular
-                      ? 'bg-blue-600 text-white hover:bg-blue-700'
+                      ? 'bg-red-600 text-white hover:bg-red-700'
                       : 'bg-gray-100 text-gray-900 hover:bg-gray-200'}`}
                 >
                   Choose {plan.name}

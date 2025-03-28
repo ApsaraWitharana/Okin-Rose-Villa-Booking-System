@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { galleryImages } from '../data/content';
 
 export function Gallery() {
@@ -10,7 +10,7 @@ export function Gallery() {
     : galleryImages.filter(img => img.category === selectedCategory);
 
   return (
-    <div className="py-12">
+    <div className="py-12  ml-20 mr-20">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-gray-900">Our Gallery</h2>
         <p className="mt-2 text-lg text-gray-600">Experience luxury through our lens</p>
@@ -23,7 +23,7 @@ export function Gallery() {
             onClick={() => setSelectedCategory(category)}
             className={`px-4 py-2 rounded-full text-sm font-medium transition-colors
               ${selectedCategory === category 
-                ? 'bg-blue-600 text-white' 
+                ? 'bg-red-600 text-white' 
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
           >
             {category.charAt(0).toUpperCase() + category.slice(1)}

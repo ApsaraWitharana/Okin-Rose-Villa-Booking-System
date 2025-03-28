@@ -37,15 +37,15 @@ export function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-center">
-                <Mail className="h-6 w-6 text-blue-600" />
-                <span className="ml-4 text-gray-600">info@luxstay.com</span>
+                <Mail className="h-6 w-6 text-red-600" />
+                <span className="ml-4 text-gray-600">info@okinvilla.com</span>
               </div>
               <div className="flex items-center">
-                <Phone className="h-6 w-6 text-blue-600" />
+                <Phone className="h-6 w-6 text-red-600" />
                 <span className="ml-4 text-gray-600">+1 (555) 123-4567</span>
               </div>
               <div className="flex items-center">
-                <MapPin className="h-6 w-6 text-blue-600" />
+                <MapPin className="h-6 w-6 text-red-600" />
                 <span className="ml-4 text-gray-600">123 Luxury Avenue, Paradise City, PC 12345</span>
               </div>
             </div>
@@ -59,7 +59,7 @@ export function Contact() {
                 id="name"
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500"
                 required
               />
             </div>
@@ -70,7 +70,7 @@ export function Contact() {
                 id="email"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500"
                 required
               />
             </div>
@@ -81,7 +81,7 @@ export function Contact() {
                 id="subject"
                 value={formData.subject}
                 onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500"
                 required
               />
             </div>
@@ -92,13 +92,13 @@ export function Contact() {
                 rows={4}
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500"
                 required
               />
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition-colors"
+              className="w-full bg-red-600 text-white py-3 px-6 rounded-md hover:bg-red-700 transition-colors"
             >
               Send Message
             </button>
