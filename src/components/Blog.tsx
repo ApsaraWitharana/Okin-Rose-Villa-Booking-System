@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { blogPosts } from '../data/content';
 
 export function Blog() {
@@ -23,7 +23,7 @@ export function Blog() {
               />
               <div className="p-6">
                 <div className="flex items-center mb-4">
-                  <span className="text-sm text-blue-600 font-medium">{post.category}</span>
+                  <span className="text-sm text-red-600 font-medium">{post.category}</span>
                   <span className="mx-2 text-gray-300">•</span>
                   <span className="text-sm text-gray-500">{post.date}</span>
                 </div>

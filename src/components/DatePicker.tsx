@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { format } from 'date-fns';
 import { Calendar } from 'lucide-react';
 import { BookingDates } from '../types';

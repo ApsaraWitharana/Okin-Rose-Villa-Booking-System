@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Star } from 'lucide-react';
 import { reviews } from '../data/content';
 
@@ -58,7 +58,7 @@ export function Reviews() {
                 key={index}
                 onClick={() => setCurrentIndex(index)}
                 className={`w-3 h-3 rounded-full transition-colors
-                  ${index === currentIndex ? 'bg-blue-600' : 'bg-gray-300'}`}
+                  ${index === currentIndex ? 'bg-red-600' : 'bg-gray-300'}`}
                 aria-label={`Go to review ${index + 1}`}
               />
             ))}
