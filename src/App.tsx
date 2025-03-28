@@ -9,7 +9,7 @@ import { Reviews } from './components/Reviews';
 import { Blog } from './components/Blog';
 import { Pricing } from './components/Pricing';
 import { Contact } from './components/Contact';
-import { Login } from './components/Login';
+
 import { rooms } from './data/rooms';
 import { BookingDates } from './types';
 
@@ -85,6 +85,7 @@ function App() {
         <Blog />
         <Pricing />
         <Contact />
+
       </main>
 
       <footer className="bg-gray-800 dark:bg-gray-900 text-white mt-16">
