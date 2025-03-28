@@ -27,16 +27,14 @@ https://github.com/ApsaraWitharana/Okin-Rose-Villa-Booking-System.git
 ```
 ## Screen short
 ### Home
-![WhatsApp Image 2025-03-28 at 14 48 48_9f88e253](https://github.com/user-attachments/assets/86998ad8-341b-41ef-90d0-c212509d0336)
+![WhatsApp Image 2025-03-28 at 14 53 08_d47258cb](https://github.com/user-attachments/assets/649099a8-e428-4d74-833a-27f26d44c0fc)
 
 ### Rooms
-![WhatsApp Image 2025-03-28 at 14 49 04_2f0b0973](https://github.com/user-attachments/assets/9e3d134e-ea66-400b-930b-4c191112823e)
+![WhatsApp Image 2025-03-28 at 14 53 33_72fe3bd3](https://github.com/user-attachments/assets/9fa95f52-5209-4243-bf0e-8734a9a6ab9a)
 
 ### Gallary
-![WhatsApp Image 2025-03-28 at 14 49 20_be0403ac](https://github.com/user-attachments/assets/3f93ecdf-ddf7-4fd6-852e-49f01619ce2b)
+![WhatsApp Image 2025-03-28 at 14 53 48_dc5e1032](https://github.com/user-attachments/assets/c70c3424-905f-49ac-9007-a6eab67f3bc1)
 
-### Blogs
-![WhatsApp Image 2025-03-28 at 14 49 35_43b6f44f](https://github.com/user-attachments/assets/5f78ae01-e956-414a-862f-df13db3e73de)
 
 
 ## License
